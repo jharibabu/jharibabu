@@ -27,7 +27,7 @@ jobs:
       
     - name: Build and Docker Image
       id: buildAndPushImage
-      uses: abhishek-070/docker-image-build-push-action@v1.0
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
           registry_url: 'docker.io'
           repository_name: 'jharibabu/demo-app'
